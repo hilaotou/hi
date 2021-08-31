@@ -230,7 +230,7 @@
 <p>Ctrl+6 ：六级标题</p>
 <p><em>Ctrl+0：段落</em></p>
 <h4 id="Markdown-语法："><a href="#Markdown-语法：" class="headerlink" title="Markdown 语法："></a>Markdown 语法：</h4><hr>
-<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc"><span class="hljs-strong">*斜体*</span><br><span class="hljs-strong">**粗体**</span><br><span class="hljs-strong">***加粗斜体**</span>*<br>~~删除线~~<br>1234<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br><span class="line">1234</span><br></pre></td></tr></table></figure>
 
 <p><strong>Typora 快捷键：</strong></p>
 <p>Ctrl+I：斜体</p>
@@ -242,7 +242,7 @@
 <p>在Typora中输入””” + 回车，并在后面选择一个语言名称即可语法高亮。</p>
 <blockquote>
 <p>语法高亮:</p>
-<figure class="highlight node-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs node-repl"><span class="hljs-meta">&gt;</span> <span class="javascript">&gt; &gt; def helloWorld():</span><br><span class="hljs-meta">&gt;</span> <span class="javascript">&gt; &gt;     print <span class="hljs-string">&#x27;hello, world&#x27;</span></span><br><span class="hljs-meta">&gt;</span> <span class="javascript">&gt; &gt; </span><br><span class="hljs-meta">&gt;</span> <span class="javascript">&gt;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt; &gt; def helloWorld():</span><br><span class="line">&gt; &gt; &gt;     print &#x27;hello, world&#x27;</span><br><span class="line">&gt; &gt; &gt; </span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
 </blockquote>
 <h4 id="表"><a href="#表" class="headerlink" title="表"></a>表</h4><blockquote>
@@ -266,10 +266,10 @@
 <p>链接</p>
 <p>内部链接</p>
 <blockquote>
-<p>这是一个带有标题属性的<a target="_blank" rel="noopener" href="http://naka.club/">链接</a>.<br>这是一个没有标题属性的<a target="_blank" rel="noopener" href="https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/naka.club/">链接</a></p>
+<p>这是一个带有标题属性的<a class="link"   target="_blank" rel="noopener" href="http://naka.club/" >链接<i class="fas fa-external-link-alt"></i></a>.<br>这是一个没有标题属性的<a class="link"   target="_blank" rel="noopener" href="https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/naka.club/" >链接<i class="fas fa-external-link-alt"></i></a></p>
 </blockquote>
 <p>效果如下：</p>
-<p>这是一个带有标题属性的<a target="_blank" rel="noopener" href="http://example.com/">链接</a>.<br>这是一个没有标题属性的<a target="_blank" rel="noopener" href="http://example.net/">链接</a></p>
+<p>这是一个带有标题属性的<a class="link"   target="_blank" rel="noopener" href="http://example.com/" >链接<i class="fas fa-external-link-alt"></i></a>.<br>这是一个没有标题属性的<a class="link"   target="_blank" rel="noopener" href="http://example.net/" >链接<i class="fas fa-external-link-alt"></i></a></p>
 <p>Typora 快捷键：**</p>
 <p>行内代码：Ctrl+Shift+`</p>
 <p>多行代码：Ctrl+Shift+K</p>
@@ -292,11 +292,11 @@
 </blockquote>
 <h3 id="内置样式"><a href="#内置样式" class="headerlink" title="内置样式"></a>内置样式</h3><h4 id="分割线和空行"><a href="#分割线和空行" class="headerlink" title="分割线和空行"></a>分割线和空行</h4><blockquote>
 <p>这是文字</p>
-<figure class="highlight node-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs node-repl"><span class="hljs-meta">&gt;</span> <span class="javascript">&lt;hr /&gt;</span><br><span class="hljs-meta">&gt;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; &lt;hr /&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
 <blockquote>
 <p>上面是分隔线</p>
-<figure class="highlight node-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs node-repl"><span class="hljs-meta">&gt;</span> <span class="javascript">&lt;br /&gt;</span><br><span class="hljs-meta">&gt;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; &lt;br /&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
 <blockquote>
 <p>上面是空行</p>
@@ -308,10 +308,15 @@
 </ul>
 <p>此标签要求 NexT 的版本在 <strong>0.4.5</strong> 或以上。 若你正在使用的版本比较低，可以选择使用 <code>HTML</code> 方式。</p>
 <p><strong>标签调用方法</strong></p>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="xml"><span class="hljs-comment">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span></span><br><span class="xml"><span class="hljs-comment">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</span></span><br><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">blockquote</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;blockquote-center&quot;</span>&gt;</span>blah blah blah<span class="hljs-tag">&lt;/<span class="hljs-name">blockquote</span>&gt;</span></span><br><span class="xml"></span><br><span class="xml"><span class="hljs-comment">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span></span><br><span class="xml"></span><span class="hljs-template-tag">&#123;% <span class="hljs-name">centerquote</span> %&#125;</span><span class="xml">blah blah blah</span><span class="hljs-template-tag">&#123;% <span class="hljs-name">endcenterquote</span> %&#125;</span><span class="xml"></span><br><span class="xml"></span><br><span class="xml"><span class="hljs-comment">&lt;!-- 标签别名 --&gt;</span></span><br><span class="xml"></span><span class="hljs-template-tag">&#123;% <span class="hljs-name">cq</span> %&#125;</span><span class="xml"> blah blah blah </span><span class="hljs-template-tag">&#123;% <span class="hljs-name">endcq</span> %&#125;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</span><br><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span><br><span class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
 
-<h4 id="效果示例"><a href="#效果示例" class="headerlink" title="效果示例"></a>效果示例</h4><p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/blockquote-center.png"><img src="http://theme-next.iissnan.com/uploads/tags/blockquote-center.png" alt="Center Blockquote Tag"></a></p>
-<p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/blockquote-center.png">Center Blockquote Tag</a></p>
+<h4 id="效果示例"><a href="#效果示例" class="headerlink" title="效果示例"></a>效果示例</h4><p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/blockquote-center.png"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://theme-next.iissnan.com/uploads/tags/blockquote-center.png"
+                      alt="Center Blockquote Tag"
+                ></a></p>
+<p><a class="link"   target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/blockquote-center.png" >Center Blockquote Tag<i class="fas fa-external-link-alt"></i></a></p>
 <h3 id="突破容器宽度限制的图片"><a href="#突破容器宽度限制的图片" class="headerlink" title="突破容器宽度限制的图片"></a>突破容器宽度限制的图片</h3><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
 <h4 id="使用方式-1"><a href="#使用方式-1" class="headerlink" title="使用方式"></a>使用方式</h4><ul>
 <li>HTML方式：使用这种方式时，为 <code>img</code> 添加属性 <code>class=&quot;full-image&quot;</code>即可。</li>
@@ -319,12 +324,17 @@
 </ul>
 <p>此标签要求 NexT 的版本在 <strong>0.4.5</strong> 或以上。 若你正在使用的版本比较低，可以选择使用 <code>HTML</code> 方式。<br>如果要在图片下显示图片的标题，请使用 标签方式 并给定 <code>title</code> 属性。</p>
 <p><strong>标签调用方法</strong></p>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="xml"><span class="hljs-comment">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span></span><br><span class="xml"><span class="hljs-comment">&lt;!-- 其中 class=&quot;full-image&quot; 是必须的 --&gt;</span></span><br><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/image-url&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;full-image&quot;</span> /&gt;</span></span><br><span class="xml"></span><br><span class="xml"><span class="hljs-comment">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span></span><br><span class="xml"></span><span class="hljs-template-tag">&#123;% <span class="hljs-name">fullimage</span> /image-url, alt, title %&#125;</span><span class="xml"></span><br><span class="xml"></span><br><span class="xml"><span class="hljs-comment">&lt;!-- 别名 --&gt;</span></span><br><span class="xml"></span><span class="hljs-template-tag">&#123;% <span class="hljs-name">fi</span> /image-url, alt, title %&#125;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;full-image&quot; 是必须的 --&gt;</span><br><span class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span><br><span class="line">&#123;% fullimage /image-url, alt, title %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 别名 --&gt;</span><br><span class="line">&#123;% fi /image-url, alt, title %&#125;</span><br></pre></td></tr></table></figure>
 
-<h4 id="效果示例-1"><a href="#效果示例-1" class="headerlink" title="效果示例"></a>效果示例</h4><p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/full-image.jpg"><img src="http://theme-next.iissnan.com/uploads/tags/full-image.jpg" alt="img"></a></p>
-<p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/full-image.jpg">img</a></p>
-<h3 id="Bootstrap-Callout-由-ivan-nginx-贡献"><a href="#Bootstrap-Callout-由-ivan-nginx-贡献" class="headerlink" title="Bootstrap Callout 由 ivan-nginx 贡献"></a>Bootstrap Callout 由 <a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/pull/1160">ivan-nginx</a> 贡献</h3><p>这些样式出现在 <a target="_blank" rel="noopener" href="http://getbootstrap.com/">Bootstrap 的官方文档</a>中。</p>
-<h4 id="使用方式-2"><a href="#使用方式-2" class="headerlink" title="使用方式"></a>使用方式</h4><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">note</span> class_name %&#125;</span><span class="xml"> Content (md partial supported) </span><span class="hljs-template-tag">&#123;% <span class="hljs-name">endnote</span> %&#125;</span><br></code></pre></td></tr></table></figure>
+<h4 id="效果示例-1"><a href="#效果示例-1" class="headerlink" title="效果示例"></a>效果示例</h4><p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/full-image.jpg"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="http://theme-next.iissnan.com/uploads/tags/full-image.jpg"
+                      alt="img"
+                ></a></p>
+<p><a class="link"   target="_blank" rel="noopener" href="http://theme-next.iissnan.com/uploads/tags/full-image.jpg" >img<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Bootstrap-Callout-由-ivan-nginx-贡献"><a href="#Bootstrap-Callout-由-ivan-nginx-贡献" class="headerlink" title="Bootstrap Callout 由 ivan-nginx 贡献"></a>Bootstrap Callout 由 <a class="link"   target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/pull/1160" >ivan-nginx<i class="fas fa-external-link-alt"></i></a> 贡献</h3><p>这些样式出现在 <a class="link"   target="_blank" rel="noopener" href="http://getbootstrap.com/" >Bootstrap 的官方文档<i class="fas fa-external-link-alt"></i></a>中。</p>
+<h4 id="使用方式-2"><a href="#使用方式-2" class="headerlink" title="使用方式"></a>使用方式</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>其中，<code>class_name</code> 可以是以下列表中的一个值：</p>
 <ul>
@@ -335,15 +345,20 @@
 <li><code>warning</code></li>
 <li><code>danger</code></li>
 </ul>
-<h4 id="效果示例-2"><a href="#效果示例-2" class="headerlink" title="效果示例"></a>效果示例</h4><p><a target="_blank" rel="noopener" href="https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png"><img src="https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png" alt="img"></a></p>
-<p><a target="_blank" rel="noopener" href="https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png">img</a></p>
+<h4 id="效果示例-2"><a href="#效果示例-2" class="headerlink" title="效果示例"></a>效果示例</h4><p><a target="_blank" rel="noopener" href="https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png"
+                      alt="img"
+                ></a></p>
+<p><a class="link"   target="_blank" rel="noopener" href="https://gitee.com/kzcy/pic/raw/master/img/bootstrap-callout.png" >img<i class="fas fa-external-link-alt"></i></a></p>
 <h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ol>
-<li><a target="_blank" rel="noopener" href="https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/">https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/</a></li>
-<li><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/tag-plugins.html">http://theme-next.iissnan.com/tag-plugins.html</a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/" >https://www.dazhuanlan.com/2019/12/14/5df3b9db55a34/<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="http://theme-next.iissnan.com/tag-plugins.html" >http://theme-next.iissnan.com/tag-plugins.html<i class="fas fa-external-link-alt"></i></a></li>
 </ol>
 <hr>
 <blockquote>
-<p>这篇文章转载自：<a target="_blank" rel="noopener" href="https://kzcy.gitee.io/2020/08/12/e22a0751302a/">https://kzcy.gitee.io/2020/08/12/e22a0751302a/</a></p>
+<p>这篇文章转载自：<a class="link"   target="_blank" rel="noopener" href="https://kzcy.gitee.io/2020/08/12/e22a0751302a/" >https://kzcy.gitee.io/2020/08/12/e22a0751302a/<i class="fas fa-external-link-alt"></i></a></p>
 </blockquote>
 
         </div>
