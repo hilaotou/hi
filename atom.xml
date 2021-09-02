@@ -6,7 +6,7 @@
   <link href="https://laotou.icu/atom.xml" rel="self"/>
   
   <link href="https://laotou.icu/"/>
-  <updated>2021-08-31T15:22:40.106Z</updated>
+  <updated>2021-09-02T14:05:33.469Z</updated>
   <id>https://laotou.icu/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://laotou.icu/2021/08/31/13/"/>
     <id>https://laotou.icu/2021/08/31/13/</id>
     <published>2021-08-31T15:11:10.000Z</published>
-    <updated>2021-08-31T15:22:40.106Z</updated>
+    <updated>2021-09-02T14:05:33.469Z</updated>
     
     <content type="html"><![CDATA[<p>  话说最近一直在找hexo主题来着，直到遇到了《<a class="link"   href="https://keep-docs.xpoet.cn/usage-tutorial/quick-start.html" >Keep<i class="fas fa-external-link-alt"></i></a>》这个主题，第一眼就喜欢上了，原本使用的是《<a class="link"   href="https://github.com/fluid-dev/hexo-theme-fluid" >Fluid<i class="fas fa-external-link-alt"></i></a> 》这个主题，但是这个主题被我改来改去的，已经忘记了原本的样子了，而且我也看这个主题看腻了！！！！</p><p>所以干脆就换成《<a class="link"   href="https://keep-docs.xpoet.cn/usage-tutorial/quick-start.html" >Keep<i class="fas fa-external-link-alt"></i></a>》这个主题了，😄</p><p>目前来看，满符合我的审美观的。</p><hr><p>所以感谢《<a class="link"   href="https://keep-docs.xpoet.cn/usage-tutorial/quick-start.html" >Keep<i class="fas fa-external-link-alt"></i></a>》主题的制作者哈。</p>]]></content>
     
@@ -302,9 +302,9 @@
     <link href="https://laotou.icu/2021/07/14/1/"/>
     <id>https://laotou.icu/2021/07/14/1/</id>
     <published>2021-07-14T15:11:31.000Z</published>
-    <updated>2021-07-14T15:24:08.624Z</updated>
+    <updated>2021-09-02T14:07:55.522Z</updated>
     
-    <content type="html"><![CDATA[<p>  这是laotou.icu的第一篇文章，所以记录一下哈。</p><p>我这个站点是使用：hexo 搭建</p><p>部署在：GitHub的GitHub pages上面。</p><p>使用的hexo主题是： <a class="link"   href="https://github.com/fluid-dev/hexo-theme-fluid" >Fluid<i class="fas fa-external-link-alt"></i></a></p><p>图片托管在：gitee</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/20190422-204832-12f4_wps%E5%9B%BE%E7%89%87_2.png"                                     ></p><p>文章编写方式：Markdown</p><hr><p>好了，暂时先写到这里吧，个人感觉第一篇文章还是简单的介绍就好了，不说废话哈。</p>]]></content>
+    <content type="html"><![CDATA[<p>  这是laotou.icu的第一篇文章，所以记录一下哈。</p><p>我这个站点是使用：hexo 搭建</p><p>部署在：GitHub的GitHub pages上面。</p><p>~使用的hexo主题是： <a class="link"   href="https://github.com/fluid-dev/hexo-theme-fluid" >Fluid<i class="fas fa-external-link-alt"></i></a> ~</p><p>图片托管在：gitee</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/20190422-204832-12f4_wps%E5%9B%BE%E7%89%87_2.png"                                     ></p><p>文章编写方式：Markdown</p><hr><p>好了，暂时先写到这里吧，个人感觉第一篇文章还是简单的介绍就好了，不说废话哈。</p>]]></content>
     
     
       
@@ -312,7 +312,7 @@
     <summary type="html">&lt;p&gt;  这是laotou.icu的第一篇文章，所以记录一下哈。&lt;/p&gt;
 &lt;p&gt;我这个站点是使用：hexo 搭建&lt;/p&gt;
 &lt;p&gt;部署在：GitHub的GitHub pages上面。&lt;/p&gt;
-&lt;p&gt;使用的hexo主题是： &lt;a class=&quot;link&quot;   href=&quot;https:</summary>
+&lt;p&gt;~使用的hexo主题是： &lt;a class=&quot;link&quot;   href=&quot;https</summary>
       
     
     
