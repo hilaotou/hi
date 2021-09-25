@@ -11,7 +11,7 @@
         
             我的小站也可以评论啦 |
         
-        laotou.icu
+        Hi.laotou
     </title>
     
 <link rel="stylesheet" href="/css/style.css">
@@ -56,7 +56,7 @@
         <div class="left">
             
             <a class="logo-title" href="/">
-                laotou.icu
+                Hi.laotou
             </a>
         </div>
 
@@ -270,7 +270,7 @@
         <li>本文作者：小老头</li>
         <li>创建时间：2021-08-17 21:17:38</li>
         <li>
-            本文链接：https://laotou.icu/2021/08/17/11/
+            本文链接：https://hi.laotou.icu/2021/08/17/11/
         </li>
         <li>
             版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -329,44 +329,30 @@
 
         
             
-    <div id="gitalk-container"></div>
-    <script data-pjax
-            src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-    <script data-pjax>
-
-        function loadGitalk() {
-            let __gitalk__pathname = decodeURI(location.pathname);
-            const __gitalk__pathnameLength = __gitalk__pathname.length;
-            const __gitalk__pathnameMaxLength = 50;
-            if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
-                __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
+    <div class="twikoo-container">
+        <script data-pjax
+                src="//cdn.jsdelivr.net/npm/twikoo@1.0.0/dist/twikoo.all.min.js"
+        ></script>
+        <div id="twikoo-comment"></div>
+        <script data-pjax>
+            function loadTwikoo() {
+                twikoo.init({
+                    el: '#twikoo-comment',
+                    envId: 'https://twikoo-alpha-six.vercel.app/',
+                    region: '',
+                });
             }
 
-            try {
-                Gitalk && new Gitalk({
-                    clientID: '40548f4c9eadbd89d40c',
-                    clientSecret: 'd6654806e3fd6eed2afb9acdd9aa59fc25f89199',
-                    repo: 'laotou',
-                    owner: 'by365',
-                    admin: ['by365'],
-                    id: __gitalk__pathname,
-                    language: 'zh-CN'
-                }).render('gitalk-container');
-
-            } catch (e) {
-                window.Gitalk = null;
+            if ('true') {
+                const loadTwikooTimeout = setTimeout(() => {
+                    loadTwikoo();
+                    clearTimeout(loadTwikooTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadTwikoo);
             }
-        }
-
-        if ('true') {
-            const loadGitalkTimeout = setTimeout(() => {
-                loadGitalk();
-                clearTimeout(loadGitalkTimeout);
-            }, 1000);
-        } else {
-            window.addEventListener('DOMContentLoaded', loadGitalk);
-        }
-    </script>
+        </script>
+    </div>
 
 
 
