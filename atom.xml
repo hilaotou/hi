@@ -6,7 +6,7 @@
   <link href="https://hi.laotou.icu/atom.xml" rel="self"/>
   
   <link href="https://hi.laotou.icu/"/>
-  <updated>2021-09-26T13:46:02.679Z</updated>
+  <updated>2021-10-01T12:21:19.879Z</updated>
   <id>https://hi.laotou.icu/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录twikoo评论系统的折腾日记《二》</title>
+    <link href="https://hi.laotou.icu/2021/10/01/18/"/>
+    <id>https://hi.laotou.icu/2021/10/01/18/</id>
+    <published>2021-10-01T12:10:30.000Z</published>
+    <updated>2021-10-01T12:21:19.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>  在前些日子换了<strong>twikoo</strong>系统之后，确实是一个非常棒的评论体验。</p><p>但是我却发现了一个我个人不会配置<strong>twikoo</strong>的尴尬局面，尤其是看到了一堆配置选项，我就蒙圈了，这也是这几天一直在苦恼的原因！</p><span id="more"></span><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/20211001201526.png"                                     ></p><p>瞅瞅，这些配置，我也不知道是干啥的！<strong>没知识是硬伤啊！！！</strong></p><p>算了，索性不捣鼓了，我又不是啥大佬，就这样吧，</p><hr><p><strong>今天是2021年10月01日，国庆节快乐，</strong>😄</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;  在前些日子换了&lt;strong&gt;twikoo&lt;/strong&gt;系统之后，确实是一个非常棒的评论体验。&lt;/p&gt;
+&lt;p&gt;但是我却发现了一个我个人不会配置&lt;strong&gt;twikoo&lt;/strong&gt;的尴尬局面，尤其是看到了一堆配置选项，我就蒙圈了，这也是这几天一直在苦恼的原因！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="twikoo" scheme="https://hi.laotou.icu/tags/twikoo/"/>
+    
+  </entry>
   
   <entry>
     <title>记录twikoo评论系统的折腾日记</title>
