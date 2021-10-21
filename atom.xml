@@ -6,7 +6,7 @@
   <link href="https://hi.laotou.icu/atom.xml" rel="self"/>
   
   <link href="https://hi.laotou.icu/"/>
-  <updated>2021-10-14T13:14:38.535Z</updated>
+  <updated>2021-10-21T05:32:43.506Z</updated>
   <id>https://hi.laotou.icu/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>疫情又一次按下了暂停键</title>
+    <link href="https://hi.laotou.icu/2021/10/21/20/"/>
+    <id>https://hi.laotou.icu/2021/10/21/20/</id>
+    <published>2021-10-21T05:08:35.000Z</published>
+    <updated>2021-10-21T05:32:43.506Z</updated>
+    
+    <content type="html"><![CDATA[<p>  这突如其来的疫情，又一次给俺们邢台市按下了暂停键！</p><blockquote><p>让原本不富裕的我，更加的雪上加霜！</p></blockquote><p>本来俺们今年的日子就不富裕，这波疫情又突然的到来！哎！！！</p><p>因为我们这里是农村，但是也架不住俺们这片有密切<strong>接触者</strong>啊，瞅瞅俺们村里发布的通知：</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/QQ%E5%9B%BE%E7%89%8720211021132321.jpg"                                     ></p><p>而好巧不巧的，我的老板今天早上发布通知：他住的小区被疫情工作人员封住了，对你没看错，俺们老板被封在了小区里出不来了！！！！</p><p>虽然俺们老板这大半年没出过远门，但是架不住跟他同小区的人出去得瑟啊！</p><p>所以因为他们小区的里人出去得瑟，而我被迫的接受要停工的待遇！</p><p>所有说：让原本不富裕的我，更加的雪上加霜啊！！！！！🤬</p><p>期待我们这边不会有确诊的人出现吧，疫情就在身边，一定要注重防控意识啊。</p><p>加油，邢台。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  这突如其来的疫情，又一次给俺们邢台市按下了暂停键！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;让原本不富裕的我，更加的雪上加霜！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本来俺们今年的日子就不富裕，这波疫情又突然的到来！哎！！！&lt;/p&gt;
+&lt;p&gt;因为我们这里是农村，但是也</summary>
+      
+    
+    
+    
+    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="疫情" scheme="https://hi.laotou.icu/tags/%E7%96%AB%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>谷歌浏览器小游戏之小暴龙×仙人掌</title>
@@ -455,28 +484,6 @@
 &lt;p&gt;我这个站点是使用：hexo 搭建&lt;/p&gt;
 &lt;p&gt;部署在：GitHub的GitHub pages上面。&lt;/p&gt;
 &lt;p&gt;~使用的hexo主题是： &lt;a class=&quot;link&quot;   href=&quot;https</summary>
-      
-    
-    
-    
-    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://hi.laotou.icu/2021/07/04/hello-world/"/>
-    <id>https://hi.laotou.icu/2021/07/04/hello-world/</id>
-    <published>2021-07-03T16:03:41.203Z</published>
-    <updated>2021-10-14T13:02:14.829Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Che</summary>
       
     
     
