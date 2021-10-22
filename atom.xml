@@ -6,7 +6,7 @@
   <link href="https://hi.laotou.icu/atom.xml" rel="self"/>
   
   <link href="https://hi.laotou.icu/"/>
-  <updated>2021-10-21T05:32:43.506Z</updated>
+  <updated>2021-10-22T12:45:44.809Z</updated>
   <id>https://hi.laotou.icu/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的小站首页更改啦。</title>
+    <link href="https://hi.laotou.icu/2021/10/22/21/"/>
+    <id>https://hi.laotou.icu/2021/10/22/21/</id>
+    <published>2021-10-22T12:23:54.000Z</published>
+    <updated>2021-10-22T12:45:44.809Z</updated>
+    
+    <content type="html"><![CDATA[<p>  话说我刚刚开始搭建我的博客的时候，启用的是<strong>laotou.icu</strong> 那时候感觉也是棒棒哒，但是为什么随后把博客更改成<strong>hi.laotou.icu</strong> 呢？</p><p>那是因为我把之前的那个GitHub的账户密码给忘了······。随后又申请的新的GitHub账户，并且把我的小博客部署到了新的GitHub账户里。</p><p>这里就不得不说一个很尴尬的场面了，那就是我的主域名<strong>laotou.icu</strong> 解析到了之前的那个GitHub账户里了，之前的那个GitHub账户也绑定了我的主域名<strong>laotou.icu</strong> 。所以在新申请的这个GitHub账户里是不能绑定我的主域名<strong>laotou.icu</strong> 的！所以这就是很尴尬了！</p><p>不得不佩服一下我的这个“脑子”，随后我“灵机一动”不如把我的主域名前面加一个“酷酷的”前缀，我加上了一个英文的《hi》，这样就很生动的表现出来了一个不错的“创意”。</p><p>所以<strong>hi.laotou.icu</strong> 就“酷酷的”上线了。</p><p>不过我有点苦恼的就是，<strong>laotou.icu</strong> 这个我竟然不能在更改了······，因为我想还是用GitHub来放我想放的东西，《毕竟能白女票，就白女票的日子才是最爽的。😄》但是因为之前的那个GitHub账户里有绑定我的<strong>laotou.icu</strong> 域名，所以一直到现在才修改过来！</p><blockquote><p> 这里就不得不说，挨个试GitHub账户密码的感觉还是很酸爽的······</p></blockquote><hr><p>最终效果：<strong>laotou.icu</strong> </p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/QQ%E6%88%AA%E5%9B%BE20211022204359.png"                                     ></p><p>哈哈，😄</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  话说我刚刚开始搭建我的博客的时候，启用的是&lt;strong&gt;laotou.icu&lt;/strong&gt; 那时候感觉也是棒棒哒，但是为什么随后把博客更改成&lt;strong&gt;hi.laotou.icu&lt;/strong&gt; 呢？&lt;/p&gt;
+&lt;p&gt;那是因为我把之前的那个GitHub的账户密</summary>
+      
+    
+    
+    
+    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="博客" scheme="https://hi.laotou.icu/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>疫情又一次按下了暂停键</title>
@@ -465,31 +490,6 @@
     
     
     <category term="博客" scheme="https://hi.laotou.icu/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这是第一篇文章记录一下</title>
-    <link href="https://hi.laotou.icu/2021/07/14/1/"/>
-    <id>https://hi.laotou.icu/2021/07/14/1/</id>
-    <published>2021-07-14T15:11:31.000Z</published>
-    <updated>2021-09-02T14:07:55.522Z</updated>
-    
-    <content type="html"><![CDATA[<p>  这是laotou.icu的第一篇文章，所以记录一下哈。</p><p>我这个站点是使用：hexo 搭建</p><p>部署在：GitHub的GitHub pages上面。</p><p>~使用的hexo主题是： <a class="link"   href="https://github.com/fluid-dev/hexo-theme-fluid" >Fluid<i class="fas fa-external-link-alt"></i></a> ~</p><p>图片托管在：gitee</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/20190422-204832-12f4_wps%E5%9B%BE%E7%89%87_2.png"                                     ></p><p>文章编写方式：Markdown</p><hr><p>好了，暂时先写到这里吧，个人感觉第一篇文章还是简单的介绍就好了，不说废话哈。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;  这是laotou.icu的第一篇文章，所以记录一下哈。&lt;/p&gt;
-&lt;p&gt;我这个站点是使用：hexo 搭建&lt;/p&gt;
-&lt;p&gt;部署在：GitHub的GitHub pages上面。&lt;/p&gt;
-&lt;p&gt;~使用的hexo主题是： &lt;a class=&quot;link&quot;   href=&quot;https</summary>
-      
-    
-    
-    
-    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
-    
     
   </entry>
   
