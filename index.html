@@ -44,50 +44,73 @@
 <main class="page-container">
 
     
-        <div class="first-screen-container flex-center fade-in-down-animation">
-    <div class="content flex-center">
-        <div class="description">
-            TM的，棺材板都压不住，老头子躁动的心
-        </div>
-        
-            <div class="s-icon-list">
-                
-                    
-                
-                    
-                
-                    
-                        
-                            <span class="s-icon-item qq">
-                                <a target="_blank" href="551607087">
-                                    <i class="fab fa-qq"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                            <span class="s-icon-item email">
-                                <a href="mailto:admin@laotou.icu">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-            </div>
-        
-    </div>
-</div>
+        $first-screen-font-size = 2rem;
+$first-screen-icon-size = 1.6rem;
+
+$temp-img = hexo-config('style.first_screen.background_img');
+$first-screen-img = $temp-img ? $temp-img:'/images/bg.svg';
+
+.first-screen-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  background: url($first-screen-img) center center / cover no-repeat;
+  background-position-y: $header-height;
+
+
+  +keep-tablet() {
+    background-position-y: $header-height * 0.9;
+  }
+
+  +keep-mobile() {
+    background-position-y: $header-height * 0.8;
+  }
+
+  .content {
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    height: 90%;
+
+    .description {
+      font-weight: bold;
+      font-size: $first-screen-font-size;
+      line-height: 1.8;
+      text-align: center;
+      color: var(--default-text-color);
+
+
+      +keep-tablet() {
+        font-size: $first-screen-font-size * 0.9;
+      }
+    }
+
+
+    .s-icon-list {
+      position: absolute;
+      bottom: 0;
+      font-size: $first-screen-icon-size;
+      text-align: center;
+
+      +keep-tablet() {
+        font-size: $first-screen-icon-size * 0.9;
+      }
+
+      .s-icon-item {
+        margin-right: 20px;
+        cursor: pointer;
+        line-height: 2;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+      }
+
+    }
+  }
+}
 
     
 
@@ -198,6 +221,60 @@
                 
                     <div class="home-content-container fade-in-down-animation">
     <ul class="home-article-list">
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2021/11/10/22/">
+                        《转载》如何克制自己的消费欲望
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                         欲望是个好东西，它让我们不断成长，引着人类不断进步；同时也是个坏东西，它让我们变得痛苦，变得不是自己。
+我们要克制的欲望，实际上就是让我们变得痛苦的欲望。
+当看见同事背了一款非常漂亮的名牌包包，内心里暗暗下决心，我也想要买一个。想象背上包包时，同事...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Wed Nov 10 2021 17:09:04 GMT+0800">2021-11-10</span></span>
+        
+            <span class="home-article-category"><i class="fas fa-folder"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/">随手笔记</a>&nbsp;
+                        </li>
+                    
+                    
+                </ul>
+            </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fas fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/%E6%B6%88%E8%B4%B9%E6%AC%B2%E6%9C%9B/">消费欲望</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2021/11/10/22/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
         
             <li class="home-article-item">
 
@@ -674,58 +751,6 @@
     </div>
 
     <a href="/2021/08/31/13/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/2021/08/27/12/">
-                        关于hexo插件的安装与卸载
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>  话说用这个hexo一段时间之后，总想着能不能功能上更加的完善和多姿多彩。所以避免不了需要安装一些hexo插件才行，但是有时候安装了过多的hexo插件会造成不必要的错误提示。</p>
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Fri Aug 27 2021 22:49:38 GMT+0800">2021-08-27</span></span>
-        
-            <span class="home-article-category"><i class="fas fa-folder"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/">随手笔记</a>&nbsp;
-                        </li>
-                    
-                    
-                </ul>
-            </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fas fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/2021/08/27/12/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
 </div>
 
             </li>
