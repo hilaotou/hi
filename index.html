@@ -44,73 +44,50 @@
 <main class="page-container">
 
     
-        $first-screen-font-size = 2rem;
-$first-screen-icon-size = 1.6rem;
-
-$temp-img = hexo-config('style.first_screen.background_img');
-$first-screen-img = $temp-img ? $temp-img:'/images/bg.svg';
-
-.first-screen-container {
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  overflow: hidden;
-  background: url($first-screen-img) center center / cover no-repeat;
-  background-position-y: $header-height;
-
-
-  +keep-tablet() {
-    background-position-y: $header-height * 0.9;
-  }
-
-  +keep-mobile() {
-    background-position-y: $header-height * 0.8;
-  }
-
-  .content {
-    position: relative;
-    box-sizing: border-box;
-    width: 80%;
-    height: 90%;
-
-    .description {
-      font-weight: bold;
-      font-size: $first-screen-font-size;
-      line-height: 1.8;
-      text-align: center;
-      color: var(--default-text-color);
-
-
-      +keep-tablet() {
-        font-size: $first-screen-font-size * 0.9;
-      }
-    }
-
-
-    .s-icon-list {
-      position: absolute;
-      bottom: 0;
-      font-size: $first-screen-icon-size;
-      text-align: center;
-
-      +keep-tablet() {
-        font-size: $first-screen-icon-size * 0.9;
-      }
-
-      .s-icon-item {
-        margin-right: 20px;
-        cursor: pointer;
-        line-height: 2;
-
-        &:last-child {
-          margin-right: 0;
-        }
-
-      }
-
-    }
-  }
-}
+        <div class="first-screen-container flex-center fade-in-down-animation">
+    <div class="content flex-center">
+        <div class="description">
+            TM的，棺材板都压不住，老头子躁动的心
+        </div>
+        
+            <div class="s-icon-list">
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <span class="s-icon-item qq">
+                                <a target="_blank" href="551607087">
+                                    <i class="fab fa-qq"></i>
+                                </a>
+                            </span>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <span class="s-icon-item email">
+                                <a href="mailto:admin@laotou.icu">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </span>
+                        
+                    
+                
+            </div>
+        
+    </div>
+</div>
 
     
 
@@ -249,7 +226,7 @@ $first-screen-img = $temp-img ? $temp-img:'/images/bg.svg';
                     
                         <li>
                             
-                            <a href="/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/">随手笔记</a>&nbsp;
+                            <a href="/categories/%E8%BD%AC%E8%BD%BD%E6%96%87%E7%AB%A0/">转载文章</a>&nbsp;
                         </li>
                     
                     
