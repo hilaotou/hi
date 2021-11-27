@@ -6,7 +6,7 @@
   <link href="https://hi.laotou.icu/atom.xml" rel="self"/>
   
   <link href="https://hi.laotou.icu/"/>
-  <updated>2021-11-10T09:33:49.533Z</updated>
+  <updated>2021-11-27T02:39:07.664Z</updated>
   <id>https://hi.laotou.icu/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>入手一cc域名</title>
+    <link href="https://hi.laotou.icu/2021/11/27/23/"/>
+    <id>https://hi.laotou.icu/2021/11/27/23/</id>
+    <published>2021-11-27T02:27:22.000Z</published>
+    <updated>2021-11-27T02:39:07.664Z</updated>
+    
+    <content type="html"><![CDATA[<p>  昨天在闲逛的时候，发现一好域名，果断下单入手了，嘎嘎。</p><p>本来打算买的是.cn或者.net的，但是发现这两个都已经被注册了，最后没办法注册了一个.cc，不过这也也不错了，也算是比较简短好记了。</p><span id="more"></span><p>nilin.cc 这个域名，拼音：ni lin</p><blockquote><p>含义《龙之逆鳞，触之必死》</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;  昨天在闲逛的时候，发现一好域名，果断下单入手了，嘎嘎。&lt;/p&gt;
+&lt;p&gt;本来打算买的是.cn或者.net的，但是发现这两个都已经被注册了，最后没办法注册了一个.cc，不过这也也不错了，也算是比较简短好记了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="域名" scheme="https://hi.laotou.icu/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>《转载》如何克制自己的消费欲望</title>
@@ -468,30 +490,6 @@
     
     
     <category term="域名邮箱" scheme="https://hi.laotou.icu/tags/%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo发生error：spawn failed错误的解决方法</title>
-    <link href="https://hi.laotou.icu/2021/07/20/3/"/>
-    <id>https://hi.laotou.icu/2021/07/20/3/</id>
-    <published>2021-07-20T15:07:03.000Z</published>
-    <updated>2021-07-20T15:20:47.385Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p>因为今天得空，合计弄一下自己的小破站点的关于页面，关于页面编辑好之后，在用hexo的部署命令<em>hexo d</em> 的时候出现了一个<em>err: Error: Spawn failed</em>的错误，这个就有点让我崩溃了，心想着咱弄一个小破站点咋就那么多崩溃的BUG啊！</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://gitee.com/by365/img/raw/master/img/hexo1.JPG"                      alt="hexo发生error：spawn failed错误的解决方法"                ></p><p>感觉好难啊，尤其是像我这种连初中都没毕业的一个文盲，在捣鼓这个小破站点的时候不是这出现问题，就是那里出现问题。</p><p>但是出现问题咱就得解决问题不是么？于是乎用上了咱们的<em>百度大法</em>，找问题的解决方法。</p><p>按照前辈们的解决方案来说，应该是因为<code>git</code>进行<code>push</code>或者<code>hexo d</code>的时候改变了一些<code>.deploy_git</code>文件下的内容。</p><h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><ol><li>删除<code>.deploy_git</code>文件夹;</li><li>输入<code>git config --global core.autocrlf false</code></li><li>然后，依次执行：<br><code>hexo clean</code><br><code>hexo g</code><br><code>hexo d</code></li></ol><p>问题解决。暴力直接，有效。</p><p>《原文链接：<a class="link"   href="https://blog.csdn.net/HTL2018/article/details/106876940%E3%80%8B" >https://blog.csdn.net/HTL2018/article/details/106876940》<i class="fas fa-external-link-alt"></i></a></p><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;问题描述：&quot;&gt;&lt;a href=&quot;#问题描述：&quot; class=&quot;headerlink&quot; title=&quot;问题描述：&quot;&gt;&lt;/a&gt;问题描述：&lt;/h1&gt;&lt;p&gt;因为今天得空，合计弄一下自己的小破站点的关于页面，关于页面编辑好之后，在用hexo的部署命令&lt;em&gt;hexo d&lt;/</summary>
-      
-    
-    
-    
-    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="博客" scheme="https://hi.laotou.icu/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
