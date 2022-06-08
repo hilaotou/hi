@@ -6,7 +6,7 @@
   <link href="https://hi.laotou.icu/atom.xml" rel="self"/>
   
   <link href="https://hi.laotou.icu/"/>
-  <updated>2022-03-16T11:35:35.506Z</updated>
+  <updated>2022-06-08T12:51:55.545Z</updated>
   <id>https://hi.laotou.icu/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录一下把代码部署到Github的步骤</title>
+    <link href="https://hi.laotou.icu/2022/06/08/29/"/>
+    <id>https://hi.laotou.icu/2022/06/08/29/</id>
+    <published>2022-06-08T12:34:44.000Z</published>
+    <updated>2022-06-08T12:51:55.545Z</updated>
+    
+    <content type="html"><![CDATA[<p>  记录一下把代码部署到Github的步骤，特么的太长时间没碰电脑了，都快忘了！！！！！</p><p>  第一步：先创建一个仓库<br><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/hilaotou/cdn/img/QQ%E6%88%AA%E5%9B%BE20220608204140.png"                                     ></p><p>  第二步：在本地计算机中打开你要上传的代码文件夹，并打开git工具，<br>并且按照我图片上的步骤去部署。</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/hilaotou/cdn/img/QQ%E6%88%AA%E5%9B%BE202206082041400.png"                                     ></p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://cdn.jsdelivr.net/gh/hilaotou/cdn/img/QQ%E6%88%AA%E5%9B%BE202206082041401.png"                                     ></p><p>基本上步骤就是这样，记录一下，省的以后自己在给忘了····</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  记录一下把代码部署到Github的步骤，特么的太长时间没碰电脑了，都快忘了！！！！！&lt;/p&gt;
+&lt;p&gt;  第一步：先创建一个仓库&lt;br&gt;&lt;img  
+                     lazyload
+                     src=&quot;/imag</summary>
+      
+    
+    
+    
+    <category term="随手笔记" scheme="https://hi.laotou.icu/categories/%E9%9A%8F%E6%89%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Github" scheme="https://hi.laotou.icu/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>冒个泡</title>
@@ -459,33 +486,6 @@
     
     
     <category term="博客" scheme="https://hi.laotou.icu/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【盛世中华】超燃！数百位8KRAW摄影师联合摄制，10分钟带你看绝美祖国大好河山！</title>
-    <link href="https://hi.laotou.icu/2021/08/14/10/"/>
-    <id>https://hi.laotou.icu/2021/08/14/10/</id>
-    <published>2021-08-14T15:16:42.000Z</published>
-    <updated>2021-08-14T15:47:41.401Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>本就处在世外桃源，何求西方极乐世界。－－《8KRAW》</p></blockquote><p>在逛bilibili的时候看到了《【盛世中华】超燃！数百位8KRAW摄影师联合摄制，10分钟带你看绝美祖国大好河山！》这个视频，本来想好好的夸一下这个视频如何如何好的，但是咱TM文化有限！所以只能一句牛逼克拉斯这个概括了，啥也不说了，直接转载这个视频哈，自行观看。</p><iframe src="//player.bilibili.com/player.html?aid=69241910&bvid=BV19E41197Kc&cid=120004475&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="100%"  height="580" quality="high"> </iframe><p>8KRAW摄影师联合摄制，10分钟的山河壮阔，960万平方公里的华夏大地，14亿人民的生息之所。 谨以此片，献礼新中国成立七十周年！ </p><p>片名：盛世中华</p><p> 策划：王源宗、LingChen </p><p>视频制作：LingChen </p><p>出品：8KRAW.COM </p><p>视频拍摄/图：8KRAW</p><p>摄影师（名单见片尾） </p><p>制片统筹/文：鹿游原 </p><p>BGM：Northwind by BrunuhVile、Dance of the River Spirits by Marcus Warner</p><hr><p>超清版本：<a class="link"   href="https://www.bilibili.com/video/BV19E41197Kc?zw" >https://www.bilibili.com/video/BV19E41197Kc?zw<i class="fas fa-external-link-alt"></i></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本就处在世外桃源，何求西方极乐世界。－－《8KRAW》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在逛bilibili的时候看到了《【盛世中华】超燃！数百位8KRAW摄影师联合摄制，10分钟带你看绝美祖国大好河山！》这个视频，本来想好好的夸一下这个</summary>
-      
-    
-    
-    
-    <category term="转载文章" scheme="https://hi.laotou.icu/categories/%E8%BD%AC%E8%BD%BD%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="8KRAW" scheme="https://hi.laotou.icu/tags/8KRAW/"/>
     
   </entry>
   
